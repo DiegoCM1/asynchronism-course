@@ -19,8 +19,9 @@ setTimeout(function () {
 
 // Excercise 3 - setTimeOut with other function
 
-function greeting(name) {
-    console.log('Hi $(name)');
+function greeting() {
+    console.log('Hi everybody');
 }
 
-setTimeout(greeting(), 200000);
+
+setTimeout(greeting, 2000);
