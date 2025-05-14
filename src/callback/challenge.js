@@ -1,4 +1,4 @@
-//Calling an API
+//Calling an API using xmlhttp
 
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest; 
 const API = 'https://api.escuelajs.co/api/v1';
